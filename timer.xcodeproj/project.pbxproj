@@ -15,6 +15,10 @@
 		D0C123D123DD73C0000A06FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C123CF23DD73C0000A06FD /* LaunchScreen.storyboard */; };
 		D0C123DC23DD73C1000A06FD /* timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C123DB23DD73C1000A06FD /* timerTests.swift */; };
 		D0C123E723DD73C1000A06FD /* timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C123E623DD73C1000A06FD /* timerUITests.swift */; };
+		D0F034A123E2DAC000EC334A /* pyoko_kotatsu_kagamimochi-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F034A023E2DAC000EC334A /* pyoko_kotatsu_kagamimochi-2.png */; };
+		D0F034A323E2DACD00EC334A /* eto_nezumi_kakizome.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F034A223E2DACC00EC334A /* eto_nezumi_kakizome.png */; };
+		D0F034A523E2DAD700EC334A /* eto_nezumi_kamifubuki.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F034A423E2DAD700EC334A /* eto_nezumi_kamifubuki.png */; };
+		D0F034B723E307AB00EC334A /* BigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F034B623E307AB00EC334A /* BigImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D0C123C123DD73B5000A06FD /* timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C123C123DD73B5000A06FD /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C123C423DD73B5000A06FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C123C623DD73B5000A06FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0C123C823DD73B5000A06FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		D0C123E223DD73C1000A06FD /* timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C123E623DD73C1000A06FD /* timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerUITests.swift; sourceTree = "<group>"; };
 		D0C123E823DD73C1000A06FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F034A023E2DAC000EC334A /* pyoko_kotatsu_kagamimochi-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pyoko_kotatsu_kagamimochi-2.png"; sourceTree = "<group>"; };
+		D0F034A223E2DACC00EC334A /* eto_nezumi_kakizome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eto_nezumi_kakizome.png; sourceTree = "<group>"; };
+		D0F034A423E2DAD700EC334A /* eto_nezumi_kamifubuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eto_nezumi_kamifubuki.png; sourceTree = "<group>"; };
+		D0F034B623E307AB00EC334A /* BigImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +97,7 @@
 		D0C123C223DD73B5000A06FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0C123C123DD73B5000A06FD /* timer.app */,
+				D0C123C123DD73B5000A06FD /* SlideshowApp.app */,
 				D0C123D723DD73C1000A06FD /* timerTests.xctest */,
 				D0C123E223DD73C1000A06FD /* timerUITests.xctest */,
 			);
@@ -99,9 +107,13 @@
 		D0C123C323DD73B5000A06FD /* timer */ = {
 			isa = PBXGroup;
 			children = (
+				D0F034A023E2DAC000EC334A /* pyoko_kotatsu_kagamimochi-2.png */,
+				D0F034A223E2DACC00EC334A /* eto_nezumi_kakizome.png */,
+				D0F034A423E2DAD700EC334A /* eto_nezumi_kamifubuki.png */,
 				D0C123C423DD73B5000A06FD /* AppDelegate.swift */,
 				D0C123C623DD73B5000A06FD /* SceneDelegate.swift */,
 				D0C123C823DD73B5000A06FD /* ViewController.swift */,
+				D0F034B623E307AB00EC334A /* BigImageViewController.swift */,
 				D0C123CA23DD73B5000A06FD /* Main.storyboard */,
 				D0C123CD23DD73C0000A06FD /* Assets.xcassets */,
 				D0C123CF23DD73C0000A06FD /* LaunchScreen.storyboard */,
@@ -145,7 +157,7 @@
 			);
 			name = timer;
 			productName = timer;
-			productReference = D0C123C123DD73B5000A06FD /* timer.app */;
+			productReference = D0C123C123DD73B5000A06FD /* SlideshowApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D0C123D623DD73C1000A06FD /* timerTests */ = {
@@ -233,7 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0C123D123DD73C0000A06FD /* LaunchScreen.storyboard in Resources */,
+				D0F034A323E2DACD00EC334A /* eto_nezumi_kakizome.png in Resources */,
 				D0C123CE23DD73C0000A06FD /* Assets.xcassets in Resources */,
+				D0F034A123E2DAC000EC334A /* pyoko_kotatsu_kagamimochi-2.png in Resources */,
+				D0F034A523E2DAD700EC334A /* eto_nezumi_kamifubuki.png in Resources */,
 				D0C123CC23DD73B5000A06FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +277,7 @@
 				D0C123C923DD73B5000A06FD /* ViewController.swift in Sources */,
 				D0C123C523DD73B5000A06FD /* AppDelegate.swift in Sources */,
 				D0C123C723DD73B5000A06FD /* SceneDelegate.swift in Sources */,
+				D0F034B723E307AB00EC334A /* BigImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Shibayama.timer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SlideshowApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Shibayama.timer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SlideshowApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
